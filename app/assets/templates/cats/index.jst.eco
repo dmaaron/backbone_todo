@@ -1,0 +1,5 @@
+<% for cat in this.cats.models: %>
+  <li>
+    <%= cat.get('name')%>
+  </li>
+<% end %>
